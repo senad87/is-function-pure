@@ -68,3 +68,13 @@ Tests are written using chai and can be run with:
 ```
 npm run test
 ```
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your contributions help me improve the library and create more open-source tools for the community.
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-blue?logo=github&style=flat-square)](https://github.com/sponsors/senad87)
+<!-- [![Patreon](https://img.shields.io/badge/Patreon-Support-orange?logo=patreon&style=flat-square)](https://www.patreon.com/your-patreon-link)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20me%20a%20coffee-29ABE0?logo=ko-fi&style=flat-square)](https://ko-fi.com/your-kofi-link)
+[![PayPal](https://img.shields.io/badge/Donate-PayPal-blue?logo=paypal&style=flat-square)](https://www.paypal.com/paypalme/your-paypal-link) -->
