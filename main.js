@@ -189,8 +189,5 @@ function isImpure(singleFunctionCode) {
 
 module.exports = {
   separate,
-  isPure,
-  isImpure,
-  traverseFunction,
-  getAllScopes,
+  isPure
 };
