@@ -1,6 +1,6 @@
 # is-function-pure
 
-is-function-pure is a JavaScript utility for detecting the purity of functions in your codebase. It helps developers identify pure and impure functions and separate them for further analysis or optimization.
+is-function-pure is a JavaScript utility for detecting if function is pure.
 
 
 ## Installation
