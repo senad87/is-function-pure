@@ -1,10 +1,9 @@
-var IsFunctionPure = require("is-function-pure");
+const { isPure } = require('is-function-pure');
 
-
-const isPure = IsFunctionPure.isPure(`
-    function add(a, b) {
-    return a + b;
+const pureFunction = `
+  function multiply(a, b) {
+    return a * b;
   }
-`);
+`;
 
-console.log(isPure);
+console.log(isPure(pureFunction)); // Output: true
