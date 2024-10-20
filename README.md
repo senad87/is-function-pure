@@ -74,9 +74,9 @@ npm run test
 Love this project? ❤️ 
 Support its development by becoming a sponsor.
 
-[![Patreon](https://img.shields.io/badge/Patreon-Support-orange?logo=patreon&style=flat-square)](https://patreon.com/senad87?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
-[![PayPal](https://img.shields.io/badge/Donate-PayPal-blue?logo=paypal&style=flat-square)](https://www.paypal.com/paypalme/senadmehic87)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20me%20a%20coffee-29ABE0?logo=ko-fi&style=flat-square)](https://ko-fi.com/senad87)
+[![Support me on Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20Me%20a%20Coffee-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/senad87)
+[![Donate via PayPal](https://img.shields.io/badge/PayPal-Donate-blue?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/senadmehic87)
+[![Support me on Patreon](https://img.shields.io/badge/Patreon-Support%20Me-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/senad87)
 
 Any amount is greatly appreciated! 🌟
 
