@@ -12,7 +12,7 @@ npm install is-function-pure
 
 
 ## Usage
-1. **separate(code)**
+### separate(sourceCode)
 The separate function analyzes a block of code and returns an object containing two arrays: pure and impure. Each array holds details about the functions found in the code.
 
 Input: A string containing JavaScript code.
@@ -41,7 +41,7 @@ console.log('Impure Functions:', result.impure);
 
 
 
-2. **isPure(singleFunctionSourseCode)**
+### isPure(singleFunctionSourseCode)
 The isPure function checks if a single function in the given code is pure. It returns true if the function is pure, and false otherwise.
 
 Input: A string containing a single JavaScript function.

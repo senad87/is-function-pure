@@ -1,6 +1,6 @@
 {
   "name": "is-function-pure",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A utility to check if a JavaScript function is pure.",
   "main": "main.js",
   "repository": {
