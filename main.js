@@ -9,7 +9,7 @@ const chalk = require("chalk");
 var purityDetector = require("./purity-detector");
 
 
-export async function separate(code) {
+async function separate(code) {
   var pure = [];
   var impure = [];
 
@@ -134,11 +134,8 @@ function traverseFunction(code, callback) {
   estraverse.traverse(ast, {
     enter: function (node) {
       // do stuff
-      // console.log(node.type);
       if (/Function/.test(node.type)) {
         currentScope = scopeManager.acquire(node); // get current function scope
-        // console.log('node.type: ', node.type);
-        // console.log('currentScope.type: ', currentScope.type);
 
         if (currentScope.type === "function-expression-name") {
           callback(currentScope.childScopes[0]);

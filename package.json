@@ -1,5 +1,5 @@
 {
-  "name": "is-pure",
+  "name": "is-function-pure",
   "version": "1.0.0",
   "description": "A utility to check if a JavaScript function is pure.",
   "main": "main.js",
@@ -15,14 +15,6 @@
   },
   "homepage": "https://github.com/senad87/is-pure#readme",
     "scripts": {
-      "web": "node --max-old-space-size=8192 app/server/index.js",
-      "start": "npm run start:server & npm run start:frontend",
-      "start:api": "node --max-old-space-size=8192 app/api/index.js",
-      "start:api:prod": "nohup npm run start:api > ./api.log &",
-      "start:server": "node --max-old-space-size=8192 app/server/index.js",
-      "start:frontend": "node ./frontend/server.js",
-      "start:prod": "nohup npm start > ./finder.log &",
-      "start:mongo": "nohup mongod > mongo.log &",
       "test": "mocha tests --recursive --watch",
       "coverage": "nyc mocha tests --recursive",
       "html-coverage": "nyc report --reporter=html"
