@@ -76,10 +76,7 @@ Support its development by becoming a sponsor.
 
 [![Patreon](https://img.shields.io/badge/Patreon-Support-orange?logo=patreon&style=flat-square)](https://patreon.com/senad87?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-blue?logo=paypal&style=flat-square)](https://www.paypal.com/paypalme/senadmehic87)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20me%20a%20coffee-29ABE0?logo=ko-fi&style=flat-square)](https://ko-fi.com/senad87)
 
 Any amount is greatly appreciated! 🌟
-<!--
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-blue?logo=github&style=flat-square)](https://github.com/sponsors/senad87)
- [![Patreon](https://img.shields.io/badge/Patreon-Support-orange?logo=patreon&style=flat-square)](https://www.patreon.com/your-patreon-link)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20me%20a%20coffee-29ABE0?logo=ko-fi&style=flat-square)](https://ko-fi.com/your-kofi-link)
-[![PayPal](https://img.shields.io/badge/Donate-PayPal-blue?logo=paypal&style=flat-square)](https://www.paypal.com/paypalme/your-paypal-link) -->
+
