@@ -34,7 +34,7 @@
     "eslint-plugin-unicorn": "^43.0.2",
     "eyes": "^0.1.8",
     "heapdump": "^0.3.15",
-    "is-function-pure": "^1.0.0",
+    "is-function-pure": "^1.0.1",
     "jsdom": "^15.1.1",
     "md5": "^2.2.1",
     "mocha": "^10.0.0",
