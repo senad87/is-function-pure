@@ -75,6 +75,9 @@ Love this project? ❤️
 Support its development by becoming a sponsor.
 
 [![Patreon](https://img.shields.io/badge/Patreon-Support-orange?logo=patreon&style=flat-square)](https://patreon.com/senad87?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
+[![PayPal](https://img.shields.io/badge/Donate-PayPal-blue?logo=paypal&style=flat-square)](https://www.paypal.com/paypalme/senadmehic87)
+
+Any amount is greatly appreciated! 🌟
 <!--
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-blue?logo=github&style=flat-square)](https://github.com/sponsors/senad87)
  [![Patreon](https://img.shields.io/badge/Patreon-Support-orange?logo=patreon&style=flat-square)](https://www.patreon.com/your-patreon-link)
