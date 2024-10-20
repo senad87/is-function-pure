@@ -178,7 +178,7 @@ function getAllScopes(code, callback) {
 
 //methods for single function source
 function isPure(singleFunctionCode) {
-  const functions = await separate(singleFunctionCode);
+  const functions = separate(singleFunctionCode);
   return functions.pure.length === 1;
 }
 
