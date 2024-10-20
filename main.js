@@ -9,7 +9,7 @@ const chalk = require("chalk");
 var purityDetector = require("./purity-detector");
 
 
-async function separate(code) {
+function separate(code) {
   var pure = [];
   var impure = [];
 
@@ -177,7 +177,7 @@ function getAllScopes(code, callback) {
 }
 
 //methods for single function source
-async function isPure(singleFunctionCode) {
+function isPure(singleFunctionCode) {
   const functions = await separate(singleFunctionCode);
   return functions.pure.length === 1;
 }

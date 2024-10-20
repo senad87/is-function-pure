@@ -1,59 +1,64 @@
 {
   "name": "is-function-pure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility to check if a JavaScript function is pure.",
   "main": "main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/senad87/is-pure"
   },
-  "keywords": ["pure", "function", "javascript", "utility"],
+  "keywords": [
+    "pure",
+    "function",
+    "javascript",
+    "utility"
+  ],
   "author": "Senad Mehic",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/senad87/is-pure/issues"
   },
   "homepage": "https://github.com/senad87/is-pure#readme",
-    "scripts": {
-      "test": "mocha tests --recursive --watch",
-      "coverage": "nyc mocha tests --recursive",
-      "html-coverage": "nyc report --reporter=html"
-    },
-    "devDependencies": {
-      "bluebird": "^3.7.2",
-      "chai": "4.1.2",
-      "chalk": "4.1.2",
-      "chance": "^1.0.18",
-      "eslint": "^8.23.0",
-      "eslint-plugin-sonarjs": "^0.15.0",
-      "eslint-plugin-unicorn": "^43.0.2",
-      "eyes": "^0.1.8",
-      "heapdump": "^0.3.15",
-      "jsdom": "^15.1.1",
-      "md5": "^2.2.1",
-      "mocha": "^10.0.0",
-      "nyc": "^13.1.0",
-      "object-sizeof": "^1.4.0",
-      "precise": "^1.1.0",
-      "uuid": "^7.0.3"
-    },
-    "dependencies": {
-      "chai-spies": "^1.0.0",
-      "cli-spinner": "^0.2.8",
-      "decompress": "^4.2.1",
-      "deep-object-diff": "^1.1.7",
-      "escope": "3.6.0",
-      "esprima": "4.0.0",
-      "estraverse": "4.2.0",
-      "event-stream": "3.3.4",
-      "express": "^4.17.1",
-      "js-beautify": "^1.10.0",
-      "line-by-line": "0.1.6",
-      "mongodb": "4.12.0",
-      "npm": "6.1.0",
-      "recast": "0.12.8",
-      "underscore": "^1.9.2",
-      "websocket": "^1.0.32"
-    }
+  "scripts": {
+    "test": "mocha tests --recursive --watch",
+    "coverage": "nyc mocha tests --recursive",
+    "html-coverage": "nyc report --reporter=html"
+  },
+  "devDependencies": {
+    "bluebird": "^3.7.2",
+    "chai": "4.1.2",
+    "chalk": "4.1.2",
+    "chance": "^1.0.18",
+    "eslint": "^8.23.0",
+    "eslint-plugin-sonarjs": "^0.15.0",
+    "eslint-plugin-unicorn": "^43.0.2",
+    "eyes": "^0.1.8",
+    "heapdump": "^0.3.15",
+    "is-function-pure": "^1.0.0",
+    "jsdom": "^15.1.1",
+    "md5": "^2.2.1",
+    "mocha": "^10.0.0",
+    "nyc": "^13.1.0",
+    "object-sizeof": "^1.4.0",
+    "precise": "^1.1.0",
+    "uuid": "^7.0.3"
+  },
+  "dependencies": {
+    "chai-spies": "^1.0.0",
+    "cli-spinner": "^0.2.8",
+    "decompress": "^4.2.1",
+    "deep-object-diff": "^1.1.7",
+    "escope": "3.6.0",
+    "esprima": "4.0.0",
+    "estraverse": "4.2.0",
+    "event-stream": "3.3.4",
+    "express": "^4.17.1",
+    "js-beautify": "^1.10.0",
+    "line-by-line": "0.1.6",
+    "mongodb": "4.12.0",
+    "npm": "6.1.0",
+    "recast": "0.12.8",
+    "underscore": "^1.9.2",
+    "websocket": "^1.0.32"
   }
-  
+}
