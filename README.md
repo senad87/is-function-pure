@@ -62,6 +62,7 @@ console.log('Impure Functions:', result.impure);
 
 ### Which function is considered pure
 For this you can read through the test cases:
+https://github.com/senad87/is-function-pure/blob/main/tests/main-test.js
 https://github.com/senad87/is-function-pure/blob/main/tests/purity-detector-test.js
 
 ## Testing
