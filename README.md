@@ -60,8 +60,14 @@ console.log('Pure Functions:', result.pure);
 console.log('Impure Functions:', result.impure);
 ```
 
-### Which function is considered pure
-For this you can read through the test cases:
+### Function is NOT pure if it:
+
+1. has references to outside scopes
+2. uses Date() or Math.random()
+3. uses this
+4. does not have return statement
+
+More about what is considered pure or not you can read in test cases:
 https://github.com/senad87/is-function-pure/blob/main/tests/main-test.js
 https://github.com/senad87/is-function-pure/blob/main/tests/purity-detector-test.js
 

@@ -30,11 +30,6 @@ function isPure(funcScope, funcCode) {
     return false;
   }
 
-  if (hasNoParams(funcScope)) {
-    showReason("hasNoParams");
-    return false;
-  }
-
   if (isAsyncFunction(funcScope)) {
     showReason("isAsyncFunction");
     return false;
@@ -42,11 +37,6 @@ function isPure(funcScope, funcCode) {
 
   if (hasMathRandomReference(funcScope)) {
     showReason("hasMathRandomReference");
-    return false;
-  }
-
-  if (hasUnusedArguments(funcCode, "test")) {
-    showReason("hasUnusedArguments");
     return false;
   }
 
@@ -315,37 +305,6 @@ function hasUnusedArguments(funcCode, functionVarName) {
 function deanonymizeFunc(funcCode, functionVarName) {
   return `var ${functionVarName} = ${funcCode}`;
 }
-
-function lint(funcCode, functionVarName) {
-  const messages = linter.verify(funcCode, {
-    env: {
-      node: true,
-      es6: true,
-    },
-    parserOptions: {
-      ecmaVersion: 8,
-    },
-    // parser: 'esprima',
-    rules: {
-      //
-      "no-unused-vars": ["error", { varsIgnorePattern: functionVarName }],
-      // "no-labels": 2,
-      // "no-constant-condition": 2, // <- OBAVEZNO OVAJ DA KORISTIS
-      // "no-unmodified-loop-condition": 2,
-      // "for-direction": 2,
-
-      // "no-unused-vars": ["error", { "vars": "all", "args": "all", "ignoreRestSiblings": false }]
-
-      // "no-constant-condition": 2
-      // "no-unmodified-loop-condition": 2
-      // "no-param-reassign": 2
-      // "no-unused-vars": "error",
-      // "no-unused-vars": ["error", { "vars": "none", "args": "all" }]
-    },
-  });
-  return messages;
-}
-
 
 function getArgumentsCount(funcScope) {
   return funcScope.block.params.length;

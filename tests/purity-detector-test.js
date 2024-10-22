@@ -497,28 +497,8 @@ describe("Function is pure if it", () => {
   });
 });
 
-describe("Function is not pure", () => {
-  // this is probably a check that should be moved to someting called like usefulnes-detector,
-  // since this function is pure technically but its signature is making it usless to be searched.
-  it("has unused argument", () => {
-    const code = `function pure(a, b, c) {
-        return a + b;
-    }`;
-
-    const ast = esprima.parse(code);
-    const scopes = escope.analyze(ast, { optimistic: true }).scopes;
-    const funcScope = scopes[1];
-    expect(purityDetector.isPure(funcScope, code)).to.equal(false);
-  });
-});
-
-
-
 
 describe("Get number of arguments", () => {
-
-
-
   it("should return number of arguments", () => {
     const code = `function noArgsFunction(a, b) {
       return a + b;
