@@ -1,8 +1,6 @@
 var escope = require("escope");
 var esprima = require("esprima");
-var estraverse = require("estraverse");
 var recast = require("recast");
-const chalk = require("chalk");
 
 var purityDetector = require("./purity-detector");
 

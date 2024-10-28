@@ -1,10 +1,6 @@
 const recast = require("recast");
 const allowedNativeRefs = require("./allowed-native-refs");
-// const functionUtils = require("./common/function-utils");
-var inspect = require("eyes").inspector({ styles: { all: "magenta" } });
 const debug = false;
-const Linter = require("eslint").Linter;
-const linter = new Linter();
 
 // For ussage in functions bellow, only temporaraly until we make tests pass
 let AllFuncScopes;
@@ -280,26 +276,6 @@ function isAsyncFunction(funcScope) {
 function hasMathRandomReference(funcScope) {
   const funcCode = recast.print(funcScope.block).code;
   return /.*Math.random\(.*/.test(funcCode);
-}
-
-function hasUnusedArguments(funcCode, functionVarName) {
-  const messages = linter.verify(deanonymizeFunc(funcCode, functionVarName), {
-    env: {
-      node: true,
-      es6: true,
-    },
-    parserOptions: {
-      ecmaVersion: 8,
-    },
-    rules: {
-      "no-unused-vars": ["error", { varsIgnorePattern: functionVarName }],
-    },
-  });
-  const hasErrors = messages.length > 0;
-  // "no-unused-vars" rule that we are using detects unused var enywhere and we want to detect only those on the first line
-  // because we want to detect only unused function arguments.
-  const areAllErrorsOnTheFirstLine = messages.some((m) => m.line === 1);
-  return hasErrors && areAllErrorsOnTheFirstLine;
 }
 
 function deanonymizeFunc(funcCode, functionVarName) {
